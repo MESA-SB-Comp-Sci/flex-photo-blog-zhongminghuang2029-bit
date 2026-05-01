@@ -384,9 +384,9 @@
 .about {
   background-color: #f1efe8;
   padding: 24px;
-  display: ???;
-  gap: ???;
-  align-items: ???;
+  display: flex;
+  gap: 2vw;
+  align-items: flex-end;
 }
 
 .about-image {
@@ -404,7 +404,7 @@
 
 .about-content {
   display: flex;
-  flex-direction: ???;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -422,8 +422,8 @@
 }
 
 .about-tags {
-  display: ???;
-  flex-wrap: ???;
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -458,5 +458,7 @@
 ---------------------------------------------------------------- */
 
 /* write your CSS here */
-
-
+.contact{
+  display:flex;
+  
+}
